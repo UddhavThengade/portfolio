@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Uddhav Thengade | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <span class="brand-left">Uddhav </span><span class="brand-right">Thengade </span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#home" data-target="home">Home</a></li>
+          <li><a href="#about" data-target="about">About</a></li>
+          <li><a href="#service" data-target="service">Services</a></li>
+          <li><a href="#resume" data-target="resume">Resume</a></li>
+          <li><a href="#projects" data-target="projects">Projects</a></li>
+          <li><a href="#contact" data-target="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1 class="hero-title">Hello — I'm <span class="name-highlight">Uddhav</span></h1>
+          <p class="hero-sub">A passionate Full Stack Web Developer building beautiful & performant web experiences.</p>
+
+          <div class="type-wrap" aria-hidden="true">
+            <span class="type-prefix">I build </span>
+            <span id="typing-text" class="typing-text"></span><span class="cursor">|</span>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn ghost">Contact Me</a>
+          </div>
+
+          <div class="hero-skills">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">Express.js</span>
+            <span class="chip">React</span>
+            <span class="chip">MongoDB</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">Java</span>
+            <span class="chip">Python</span>
+            <span class="chip">Bootstrap</span>
+            <span class="chip">Tailwind CSS</span>
+          </div>
+        </div>
+
+        <aside class="hero-right">
+          <div class="photo-wrap">
+            <img src="assets\me.jpeg" alt="Uddhav Thengade" class="profile-photo" />
+          </div>
+
+          <div class="quick-info card">
+            <h4>About</h4>
+            <p class="muted">Enthusiastic developer with interest in elegant UI, performance and responsive design.</p>
+            <div class="meta">
+              <span>📍 Chhatrapati Sambhajinagar</span>
+              <span>🎓 BCS Graduate</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container section-head">
+        <h2>About Me</h2>
+        <p class="muted">A FULL STACK Web Developer with a passion for creating innovative 
+          and user-friendly websites . I am 20 years old and currently i am 
+          persuing BCS (Bachlors of Computer Science ) from shiv Chhatrapati
+          college in Chh.Sambhajinagar , Maharashtra .I am specializing in 
+          computer science and website development . 
+          
+        </p>
+        <p class="muted">
+          Driven by curiosity and a love for technology . I am constantly 
+          learning and evolving to stay ahead in the dynamic world of web 
+          development . Whether it's designing seamless user experiences or 
+          coding efficienct back-end system .I am commited to delivering 
+          excellence in every project . Let's collebrate and bring your idea to 
+          life !
+        </p>
+      </div>
+
+      <div class="container about-grid">
+        <!-- <div class="card about-card animate-up">
+          <h3>Who I am</h3>
+          <p>Hi, I'm <strong>Prashant Hiwarde</strong>. I build user-friendly websites and web apps with modern front-end & back-end technologies. I focus on clear code, accessible interfaces and performance.</p>
+        </div> -->
+
+        <div class="card skills-card animate-up delay-1">
+          <h3>Skills</h3>
+          <ul class="skill-list">
+            <li>HTML • CSS • JavaScript</li>
+            <li>Node.js • Express • MySQL</li>
+            <li>Responsive Design • Git • Deployment</li>
+            <li>MongoDB • React • bootstrap</li>
+            <li>Tailwind CSS • Python • Java</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="service" class="section services">
+      <div class="container section-head">
+        <h2>Services</h2>
+        <p class="muted">What I can help you with</p>
+      </div>
+
+      <div class="container cards-grid">
+        <article class="service-card animate-up">
+          <h3>Web Development</h3>
+          <p>End-to-end websites & web apps using modern HTML, CSS, JS and Node.js.</p>
+        </article>
+
+        <article class="service-card animate-up delay-1">
+          <h3>Responsive UI</h3>
+          <p>Pixel-perfect responsive designs that work beautifully on mobile & desktop.</p>
+        </article>
+
+        <article class="service-card animate-up delay-2">
+          <h3>Performance & SEO</h3>
+          <p>Fast-loading pages and basic SEO best practices for discoverability.</p>
+        </article>
+
+        <article class="service-card animate-up delay-2">
+          <h3>Java & Python Backend Developmen</h3>
+          <p>Creating scalable backend systems using Java (Spring Boot) and Python (Django/Flask) with SQLite/MySQL databases</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- RESUME (PDF Viewer only) -->
+    <section id="resume" class="section resume">
+      <div class="container section-head">
+        <h2>My Resume</h2>
+        <p class="muted">To downlode my resume click the save button .</p>
+      </div>
+
+      <div class="container resume-wrap">
+        <div class="">
+          <iframe src="PrashantHiwarde_CV.pdf" title="" class="resume"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <div class="container section-head">
+        <h2>Projects</h2>
+        <p class="muted">Selected work — click to view or open in fullscreen</p>
+      </div>
+
+      <div class="container projects-grid">
+        <!-- Example project cards. Replace content with your projects -->
+        <article class="project-card card animate-up">
+          <div class="project-media" style="background-image:url('assets/project1.png')"></div>
+          <div class="project-body">
+            <h3>Quiz Competition App</h3>
+            <p class="muted">A real-time multiplayer quiz web application built using HTML, CSS, JavaScript, Node.js, Express, and Socket.IO. It features room creation and joining, synchronized timers, single-answer submission, and live score comparison after the quiz.</p>
+            <div class="project-links">
+              <a href="https://quizz-wala-developer.onrender.com/" class="link">Live</a>
+              <a href="https://github.com/prashanthiwarde154/quizz-wala-developer" class="link">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card card animate-up delay-1">
+          <div class="project-media" style="background-image:url('assets/project2.png')"></div>
+          <div class="project-body">
+            <h3>Metro-Link Sambhajinagar</h3>
+            <p class="muted">Metro Link Sambhajinagar is a web-based metro information and management platform built using HTML, CSS, JavaScript, Node.js, and Express. It features secure user authentication via mobile number and password, along with dynamic metro routes, station details, schedules, and service updates.</p>
+            <div class="project-links">
+              <a href="#" class="link">Demo</a>
+              <a href="#" class="link">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- add more cards as needed -->
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates" class="section certificates">
+      <div class="container section-head">
+        <h2>Certificates</h2>
+        <p class="muted">Tap or hover any certificate to view</p>
+      </div>
+
+     <!-- <div class="container cert-grid">
+        <div class="cert-card" onclick="openfullscreen('cert1.jpg')">
+          <img src="assets\cert1.jpg" alt="Certificate 1" />
+        </div>
+        <div class="cert-card" onclick="openfullscreen('cert2.jpg')">
+          <img src="cert2.jpg" alt="Certificate 2" />
+        </div>
+        <div cla ss="cert-card" onclick="openfullscreen('cert3.jpg')">
+          <img src="cert3.jpg" alt="Certificate 3" />
+        </div>
+      </div> -->
+                  <div class="certificate-container">
+               
+               
+                <div class="try">
+                    <img src="assets/cert1.jpg" onclick="openfullscreen('assets/cert1.jpg')"class="cert">
+                </div>
+                <div class="try">
+                    <img src="assets/cert2.jpeg" onclick="openfullscreen('assets/cert2.jpeg')"class="cert">
+                    
+                </div>
+                <div class="try">
+                    <img src="assets/cert3.jpeg" onclick="openfullscreen('assets/cert3.jpeg')"class="cert">
+                    
+                </div>
+                <div class="try">
+                    <img src="assets/cert4.jpeg" onclick="openfullscreen('assets/cert4.jpeg')"class="cert">
+                   
+                </div>
+                    <div class="try">
+                    <img src="assets/cert5.jpeg" onclick="openfullscreen('assets/cert5.jpeg')"class="cert">
+                    
+                </div>
+                <div class="try">
+                    <img src="assets/cert6.jpeg" onclick="openfullscreen('assets/cert6.jpeg')"class="cert">
+                    
+                </div>
+               
+              
+            </div>
+            <div id="fullscreen-view">
+                <img id="fullscreen-img">
+                <button id="close-btn" onclick="closefullscreen()"> &times;</button>
+            </div>
+    </section>
+
+    <!-- Fullscreen viewer for certificates -->
+ 
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container section-head">
+        <h2>Contact</h2>
+        <p class="muted">Let's build something together — reach out!</p>
+      </div>
+
+      <div class="container contact-grid">
+        <div class="card contact-card animate-up">
+          <h3>Get in touch</h3>
+          <p class="muted">Email: <a href="mailto:uddhavthengade@gmail.com">uddhavthengade@gmail.com</a></p>
+          <p class="muted">Phone: <a href="tel:+919637324805">+91 9637324805</a></p>
+          <div class="socials">
+            <a href="https://github.com/UddhavThengade" class="chip">GitHub</a>
+            <a href="https://www.linkedin.com/in/uddhav-thengade-77a807325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="chip">LinkedIn</a>
+          </div>
+        </div>
+
+        <form class="card contact-form animate-up delay-1" action="#" method="post" onsubmit="return false;">
+          <label>
+            <span class="label">Name</span>
+            <input type="text" placeholder="Your name" required />
+          </label>
+
+          <label>
+            <span class="label">Email</span>
+            <input type="email" placeholder="you@example.com" required />
+          </label>
+
+          <label>
+            <span class="label">Message</span>
+            <textarea placeholder="Tell me about your project..." rows="4" required></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Send Message</button>
+            <button class="btn ghost" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Uddhav Thengade — All rights reserved</p>
+    </div>
+  </footer>
+
+  <!-- Small JS for UI: typing, nav, certificate fullscreen -->
+  <script>
+    // typing effect
+    (function () {
+      const phrases = ["Full Stack Web Developer", "Frontend & Backend", "Responsive Interfaces", "Performance-focused"];
+      let i = 0, j = 0, current = "", isDeleting = false;
+      const el = document.getElementById("typing-text");
+      function tick() {
+        const full = phrases[i];
+        if (isDeleting) {
+          current = full.substring(0, current.length - 1);
+        } else {
+          current = full.substring(0, current.length + 1);
+        }
+        el.textContent = current;
+        let delay = isDeleting ? 80 : 120;
+        if (!isDeleting && current === full) { delay = 1200; isDeleting = true; }
+        else if (isDeleting && current === "") { isDeleting = false; i = (i + 1) % phrases.length; delay = 300; }
+        setTimeout(tick, delay);
+      }
+      tick();
+    })();
+
+    // smooth scroll & mobile nav
+    (function () {
+      const links = document.querySelectorAll('a[data-target]');
+      links.forEach(l => l.addEventListener('click', e => {
+        e.preventDefault();
+        const id = l.getAttribute('href').slice(1);
+        const target = document.getElementById(id);
+        if (target) {
+          const offset = 80;
+          const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+        // close mobile nav
+        document.getElementById('nav').classList.remove('open');
+        document.getElementById('hamburger').classList.remove('active');
+      }));
+
+      const ham = document.getElementById('hamburger');
+      ham.addEventListener('click', () => {
+        document.getElementById('nav').classList.toggle('open');
+        ham.classList.toggle('active');
+      });
+
+      // set current year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+
+    // certificate fullscreen
+    function openfullscreen(src) {
+      const view = document.getElementById('fullscreen-view');
+      const img = document.getElementById('fullscreen-img');
+      img.src = src;
+      view.style.display = 'flex';
+    }
+    function closefullscreen(e) {
+      e && e.stopPropagation();
+      document.getElementById('fullscreen-view').style.display = 'none';
+      document.getElementById('fullscreen-img').src = '';
+    }
+  </script>
+</body>
+</html>
